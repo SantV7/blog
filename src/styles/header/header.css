@@ -3,36 +3,50 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-flow: row nowrap;
-    background-color: rgb(27, 13, 13);
-    padding: 13.57px 17.6px;
+    background-color: rgb(0, 0, 0);
+    padding: 10.57px 17.6px;
     color: white;
 }
 
-
+header > h1 {
+    font-family: var(--fontFunnel);
+    font-size: 2.21em;
+}
 
 header > span {
-    font-size: 21.87px;
-    font-family: "Rubik Glitch", system-ui;
+    font-size: 23.3px;
+    font-family: var(--fontRubik);
 }
 
 .font-ease-lake {
-    font-family: "Eagle Lake", serif;
+    font-family: var(--fontEagle);
+}
+
+#human-ghoul-span {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 6.6px;
+    align-items: center;
 }
 
 header > span > #ghoul-red {
     color: red;
-    animation: blood-pulse ease-in-out 3s infinite;
+    animation: blood-pulse ease-in-out 2.74s infinite;
 }
 
 @keyframes blood-pulse {
     0% {
-        text-shadow: 0px 0px 4.5px rgb(255, 0, 0) ;
+        text-shadow: 0px 0px 3.5px rgb(255, 0, 0);
+        transform: scale(1); 
     }
     50% {
-        text-shadow: 0px 0px 12.75px rgba(255, 0, 0, 0.989);
+        text-shadow: 0px 0px 13.75px rgba(255, 0, 0);
+        transform: scale(1.038);
     }
     100% {
-        text-shadow: 0px 0px 4.5px rgb(134, 3, 3) ;
+        text-shadow: 0px 0px 3.5px rgb(134, 3, 3);
+        transform: scale(1);
     }
 }
 
@@ -42,10 +56,30 @@ header > span > #ghoul-red {
         gap: 130px;
         padding: 15.57px 17.6px;
     }
+
+    header > h1 {
+        font-family: var(--fontFunnel);
+        font-size: 2.27em;
+    }
+
+    header > span {
+        font-size: 24.3px;
+        font-family: var(--fontRubik);
+    }
 }
 
 @media screen and (min-width:1068px) {
 
+    header > h1 {
+        font-family: var(--fontFunnel);
+        font-size: 2.27em;
+    }
+
+    header > span {
+        font-size: 24.3px;
+        font-family: var(--fontRubik);
+    }
+    
 }
 
 /* doing the responsive desktop */
