@@ -28,13 +28,24 @@ header > span {
     justify-content: center;
     gap: 6.6px;
     align-items: center;
+    animation: pulseText ease 3s infinite;
 }
 
 header > span > #ghoul-red {
     color: red;
     animation: blood-pulse ease-in-out 2.74s infinite;
 }
+@keyframes pulseText {
+    0% {
 
+    }
+    50% {
+
+    }
+    100% {
+
+    }
+}
 @keyframes blood-pulse {
     0% {
         text-shadow: 0px 0px 3.5px rgb(255, 0, 0);
@@ -54,7 +65,7 @@ header > span > #ghoul-red {
     header {
         justify-content: space-evenly;
         gap: 130px;
-        padding: 15.57px 17.6px;
+        padding: 16.57px 17.6px;
     }
 
     header > h1 {
@@ -69,7 +80,9 @@ header > span > #ghoul-red {
 }
 
 @media screen and (min-width:1068px) {
-
+    header {
+        padding: 18px 33px;
+    }
     header > h1 {
         font-family: var(--fontFunnel);
         font-size: 2.27em;
