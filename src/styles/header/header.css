@@ -7,27 +7,32 @@ header {
     padding: 13.57px 17.6px;
     color: white;
 }
-header > h1 {
-    
-}
+
+
+
 header > span {
     font-size: 21.87px;
+    font-family: "Rubik Glitch", system-ui;
 }
-header > span > .ghoul-red {
-    letter-spacing: 0.35px;
+
+.font-ease-lake {
+    font-family: "Eagle Lake", serif;
+}
+
+header > span > #ghoul-red {
     color: red;
-    animation: blood-pulse ease 2.4s infinite;
+    animation: blood-pulse ease-in-out 3s infinite;
 }
 
 @keyframes blood-pulse {
     0% {
-        text-shadow: 0px 0px 2.5px rgb(255, 0, 0) ;
+        text-shadow: 0px 0px 4.5px rgb(255, 0, 0) ;
     }
     50% {
         text-shadow: 0px 0px 12.75px rgba(255, 0, 0, 0.989);
     }
     100% {
-        text-shadow: 0px 0px 2.5px rgb(134, 3, 3) ;
+        text-shadow: 0px 0px 4.5px rgb(134, 3, 3) ;
     }
 }
 

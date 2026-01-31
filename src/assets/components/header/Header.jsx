@@ -5,7 +5,10 @@ const Header = () => {
     <>
     <header>
         <h1>Ken Kaneki</h1>
-        <span>Human | <span className="ghoul-red">Ghoul</span></span>
+        <span id='human-ghoul-span'>Human 
+          <span className='font-ease-lake'>|</span>
+          <span className='font-ease-lake' id="ghoul-red">Ghoul</span>
+        </span>
     </header>
     </>
   )
