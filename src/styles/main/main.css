@@ -1,8 +1,9 @@
 main {
     display: flex;
     justify-content: center;
-    align-items: start;
-    background-image: linear-gradient( rgb(40, 39, 46), rgb(58, 24, 24));
+    align-items: center;
+    flex-flow: column nowrap;
+    background-image: linear-gradient( rgb(23, 22, 27), rgb(48, 18, 18));
     width: 100%;
     height: 100vh;
 }
