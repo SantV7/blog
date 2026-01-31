@@ -1,12 +1,13 @@
-
+import Header from "./assets/components/Header"
+import './styles/global.css'
 function App() {
   
   return (
     <>
-    <h1>Meu Blog</h1>
+    <Header />
 
 
-    
+
     </>
   )
 }
