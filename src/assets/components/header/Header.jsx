@@ -1,11 +1,11 @@
-import '../../styles/header/header.css'
+import '../../../styles/header/header.css'
 
 const Header = () => {
   return (
     <>
     <header>
         <h1>Ken Kaneki</h1>
-        <span>Human|<span className="ghoul-red">Ghoul</span></span>
+        <span>Human | <span className="ghoul-red">Ghoul</span></span>
     </header>
     </>
   )
