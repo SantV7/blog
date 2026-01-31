@@ -32,11 +32,11 @@ section > #kaneki-human-one {
 
 @media  screen and (min-width:768px)  {
     #section-human {
-        max-width: 63%;
+        min-width: 73.5%;
         flex-flow:  row nowrap;
         justify-content: space-between;
         align-items: start;
-        margin-left: -34%;
+        margin-left: -17.65%;
     }
 }
 
