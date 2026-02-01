@@ -13,24 +13,22 @@ header > h1 {
     font-size: 2.21em;
 }
 
-header > span {
+header > #human-ghoul {
+    display: flex;
+    font-family:var(--fontRubik);
+    flex-flow: row nowrap;
     font-size: 23.3px;
-    font-family: var(--fontRubik);
+    justify-content: center;
+    gap: 3.8px;
+    align-items: center;
 }
 
 .font-ease-lake {
     font-family: var(--fontEagle);
 }
 
-#human-ghoul-span {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    gap: 6.6px;
-    align-items: center;
-}
-
-header > span > #ghoul-red {
+header > div > #ghoul-red {
+    opacity: 0;
     color: red;
     animation: blood-pulse ease-in-out 2.54s infinite;
 }
@@ -62,7 +60,7 @@ header > span > #ghoul-red {
         font-size: 2.27em;
     }
 
-    header > span {
+    header > div {
         font-size: 24.3px;
         font-family: var(--fontRubik);
     }
@@ -75,13 +73,7 @@ header > span > #ghoul-red {
     header > h1 {
         font-family: var(--fontFunnel);
         font-size: 2.27em;
-    }
-
-    header > span {
-        font-size: 24.3px;
-        font-family: var(--fontRubik);
-    }
-    
+    }  
 }
 
 /* doing the responsive desktop */
