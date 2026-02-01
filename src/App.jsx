@@ -33,10 +33,10 @@ function App() {
           </section>
          </section>
 
-         <section id="img-kaneki">
+         <section id="married-kaneki-area">
           <header>
             <span></span>
-            <div id="married" className="age-area">25y</div>
+            <div id="married" className="married-age">25y</div>
           </header>
 
           <section className="text-styling-kaneki-phases" id="text-about-kaneki-married">
