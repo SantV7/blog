@@ -1,4 +1,4 @@
-header {
+#main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,12 +8,12 @@ header {
     color: white;
 }
 
-header > h1 {
+#main-header > h1 {
     font-family: var(--fontFunnel);
     font-size: 2.21em;
 }
 
-header > #human-ghoul {
+#main-header > #human-ghoul {
     display: flex;
     font-family:var(--fontRubik);
     flex-flow: row nowrap;
@@ -27,7 +27,7 @@ header > #human-ghoul {
     font-family: var(--fontEagle);
 }
 
-header > #human-ghoul > #ghoul-red > #ghoul-red-word {
+#main-header > #human-ghoul > #ghoul-red > #ghoul-red-word {
     color: red;
     display: inline-block;
     animation: blood-pulse ease-in-out 2.54s infinite;
@@ -49,17 +49,17 @@ header > #human-ghoul > #ghoul-red > #ghoul-red-word {
 }
 
 @media screen and (min-width:768px) and ( max-width:1067px) {
-    header {
+    #main-header {
         justify-content: space-evenly;
         gap: 130px;
     }
 
-    header > h1 {
+    #main-header > h1 {
         font-family: var(--fontFunnel);
         font-size: 2.27em;
     }
 
-    header > div {
+    #main-header > div {
         font-size: 24.3px;
         font-family: var(--fontRubik);
     }
@@ -67,7 +67,7 @@ header > #human-ghoul > #ghoul-red > #ghoul-red-word {
 
 @media screen and (min-width:1068px) {
 
-    header > h1 {
+    #main-header > h1 {
         font-family: var(--fontFunnel);
         font-size: 2.27em;
     }  

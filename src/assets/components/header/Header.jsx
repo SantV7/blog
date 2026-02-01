@@ -18,11 +18,9 @@ useEffect(() => {
 },[])
 
 
-
-
   return (
     <>
-    <header>
+    <header id='main-header'>
         <h1>Ken Kaneki</h1>
         <div id='human-ghoul'>Human   
           <div className='font-ease-lake'> | </div>
