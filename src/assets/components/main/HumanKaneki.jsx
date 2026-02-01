@@ -1,4 +1,4 @@
-import '../../../styles/main/humanKaneki.css'
+
 const HumanKaneki = () => {
   return (
      <>
