@@ -8,3 +8,9 @@ main {
     height: 100vh;
 }
 
+main > #section-grid {
+    background-color: rgba(34, 41, 73, 0.384);
+    height: 400px;
+    width: 100%;
+    display: grid;
+}

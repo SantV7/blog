@@ -10,17 +10,16 @@ function App() {
      <Header />
      
      <main>
-       <section-grid>
+       <section id="section-grid">
          <section id="human-kaneki">
          </section>
-         
+
          <section id="ghoul-kaneki">
          </section>
 
          <section id="img-kaneki">
-          {/* Here stay the imgs sbout Kaneki */}
          </section>
-       </section-grid>
+       </section>
      </main>
     </>
   )
