@@ -22,7 +22,7 @@ main > #section-grid {
 main > #section-grid > section {
     border-radius: 5px;
     text-align: center;
-    background-color: rgb(74, 15, 15);
+    background-image: linear-gradient(to top, rgb(66, 17, 29), rgb(60, 24, 53));
 }
 
 main > #section-grid > section > header {
