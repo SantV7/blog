@@ -52,7 +52,6 @@ header > #human-ghoul > #ghoul-red > #ghoul-red-word {
     header {
         justify-content: space-evenly;
         gap: 130px;
-        padding: 10.57px 17.6px;
     }
 
     header > h1 {
@@ -67,9 +66,7 @@ header > #human-ghoul > #ghoul-red > #ghoul-red-word {
 }
 
 @media screen and (min-width:1068px) {
-    header {
-        padding: 11px 33px;
-    }
+
     header > h1 {
         font-family: var(--fontFunnel);
         font-size: 2.27em;

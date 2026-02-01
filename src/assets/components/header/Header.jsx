@@ -18,13 +18,17 @@ useEffect(() => {
 },[])
 
 
+
+
   return (
     <>
     <header>
         <h1>Ken Kaneki</h1>
         <div id='human-ghoul'>Human   
           <div className='font-ease-lake'> | </div>
-          <div className='font-ease-lake' id='ghoul-red'> <span id="ghoul-red-word">Ghoul</span></div>
+          <div className='font-ease-lake' id='ghoul-red'>
+             <span id="ghoul-red-word">Ghoul</span>
+          </div>
         </div>
     </header>
     </>
