@@ -1,17 +1,37 @@
 import Header from "./assets/components/header/Header"
 import '../src/styles/main/main.css'
 import './styles/global.css'
+import gsap from "gsap"
+import { useEffect } from "react"
 
 
 function App() {
-  
+  useEffect(() => {
+     gsap.fromTo('.animation-card', {
+       opacity: 0,
+       y: -230
+      }, {
+        opacity: 1,
+        y:0,
+        stagger: {
+          each:0.1,
+          from: 'end'
+        },
+        x: 0,
+        ease: 'power2.inOut',
+        duration: 2,
+        delay:0.45,
+    })
+
+  }, [])
+
   return (
     <>
      <Header />
      
      <main>
        <section id="section-grid">
-         <section id="human-kaneki">
+         <section className="animation-card" id="human-kaneki">
           <header>
             <span></span>
             <div id="human-age" className="age-area">18-19y</div>
@@ -23,7 +43,7 @@ function App() {
           </section>
          </section>
 
-         <section id="ghoul-kaneki">
+         <section className="animation-card" id="ghoul-kaneki">
           <header>
             <span></span>
             <div id="ghoul-age" className="age-area">19-20y</div>
@@ -35,7 +55,7 @@ function App() {
           </section>
          </section>
 
-         <section id="married-kaneki-area">
+         <section className="animation-card" id="married-kaneki-area">
           <header>
             <span></span>
             <div id="married-age" className="age-area">23-25y</div>
