@@ -25,9 +25,11 @@ main > #section-grid > section {
     text-align: center;
     background-image: linear-gradient(to top, rgba(66, 17, 29, 0.382), rgba(60, 24, 53, 0.455));
 }
+
 main > #section-grid > section > .text-styling-kaneki-phases {
     padding: 10px 30px;
 }
+
 main > #section-grid > section > .text-styling-kaneki-phases > p {
     font-family: var(--fontEagle);
     color: white;
@@ -85,5 +87,13 @@ q {
         grid-row: 2;
         justify-self: center;
         width: calc(50% - 20px);
+        min-height: 470px;
     }
+
+    main > #section-grid > .animation-card {
+        min-height: 535px;
+    }
+
+    main > #section-grid > {
+     }
 }

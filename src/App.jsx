@@ -22,7 +22,6 @@ function App() {
         duration: 2,
         delay:0.45,
     })
-
   }, [])
 
   return (
