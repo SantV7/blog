@@ -2,8 +2,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    ;
     flex-flow: column nowrap;
+    padding-top: 60px;
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient( rgb(15, 14, 18), rgb(31, 11, 11));
@@ -14,8 +14,9 @@ main > #section-grid {
     width: 100%;
     height: 100%;
     display: grid;
+    justify-content: center;
     align-items: start;
-    gap: 85px 0px;
+    gap: 18px 40px;
 
 }
 
@@ -25,16 +26,17 @@ main > #section-grid > section {
     text-align: center;
     background-image: linear-gradient(to top, rgba(66, 17, 29, 0.382), rgba(60, 24, 53, 0.455));
 }
-
+main > #section-grid > section > .text-styling-kaneki-phases {
+    padding: 10px 30px;
+}
 main > #section-grid > section > .text-styling-kaneki-phases > p {
     font-family: var(--fontEagle);
-   
     color: white;
     padding: 20px 13px 10px 13px;
+    margin-bottom: 35px;
 }
 
 main > #section-grid > section > header {
-    
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -63,6 +65,14 @@ main > #section-grid > #married-kaneki-area > header > #married-age {
     font-family: var(--fontEagle);
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+}
+
+
+q {
+    padding: 13px;
+    font-size: 1.16em;
+    font-family: var(--fontPoppins);
+    color: white;
 }
 
 
