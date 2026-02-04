@@ -3,6 +3,7 @@ import '../src/styles/main/main.css'
 import './styles/global.css'
 import gsap from "gsap"
 import { useEffect } from "react"
+import Skills from "./assets/components/main/Skills"
 
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
          </section>
        </section>
      </main>
+     <Skills />
     </>
   )
 }
