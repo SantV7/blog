@@ -21,7 +21,7 @@ const Skills = () => {
         <header>
           <h1>Habilidades</h1>
         </header>
-        <div>
+        <div id='skills-document'>
           <p>Classe: Ghoul de um olho</p>
           <p>Estamina: Alta</p>
           <p>Força: Nível - SSS</p>
