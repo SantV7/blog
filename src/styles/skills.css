@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 95px;
+    height: 100%;
+    padding-bottom: 26px;
     background-image: linear-gradient( rgb(32, 12, 12),  rgb(23, 21, 29));
 
     
