@@ -75,6 +75,18 @@ q {
     color: white;
 }
 
+.animation-card {
+    transition: ease-in-out 0.35s !important;
+}
+.animation-card:hover {
+    scale: 1.02 !important;   
+}
+
+
+
+
+
+
 @media screen and (min-width:768px) {
     main > #section-grid {
         justify-content: center;
@@ -93,7 +105,4 @@ q {
     main > #section-grid > .animation-card {
         min-height: 535px;
     }
-
-    main > #section-grid > {
-     }
 }

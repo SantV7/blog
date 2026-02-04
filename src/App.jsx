@@ -57,7 +57,7 @@ function App() {
          <section className="animation-card" id="married-kaneki-area">
           <header>
             <span></span>
-            <div id="married-age" className="age-area">23-25y</div>
+            <div id="married-age" className="age-area">23y</div>
           </header>
 
           <section className="text-styling-kaneki-phases" id="text-about-kaneki-married">
