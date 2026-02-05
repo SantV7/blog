@@ -5,9 +5,10 @@ const Skills = () => {
 
   useEffect(() => {
     ScrollReveal().reveal('#main-info', {
-       delay:0.4,
-       distance: '50px',
-       duration: 980,
+      reset: true,
+       delay:0.45,
+       distance: '57px',
+       duration: 1000,
     })
   }, [])
   return (
