@@ -6,7 +6,7 @@ const Skills = () => {
   useEffect(() => {
     ScrollReveal().reveal('#main-info', {
        delay:0.4,
-       distance: '55px',
+       distance: '50px',
        duration: 980,
     })
   }, [])
@@ -14,7 +14,7 @@ const Skills = () => {
     <>
     <aside id='info'>
       <section id='main-info' className='main-info'>
-        <div>
+        <div id='main-data-kaneki'>
           <p>Nome: Ken Kaneki</p>
           <p>
             Sexo: Masculino
