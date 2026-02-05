@@ -68,7 +68,6 @@
     background-image: linear-gradient( rgb(32, 12, 12),  rgb(23, 21, 29));
     flex-flow: column nowrap;
     width: 100%;
-    ;
     
       .main-info {
           width: 100%;
@@ -83,16 +82,6 @@
               padding: 10px 5px;
               border-radius: 0px;
               height: 210px;
-              p {
-                  background-color: rgb(255, 102, 0);
-                  border-radius: 4px;
-                  padding: 4px;
-                  margin-bottom: 8px;
-                  transition: ease 0.45s;
-                  &:hover {
-                    padding: 12px 5px;
-                  }
-              }
             }
       }
 }

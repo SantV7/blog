@@ -1,16 +1,24 @@
+import { useEffect } from 'react'
 import '../../../styles/skills.css'
+import ScrollReveal from 'scrollreveal'
 const Skills = () => {
+
+  useEffect(() => {
+    ScrollReveal().reveal('#main-info', {
+       delay:0.4,
+       distance: '55px',
+       duration: 980,
+    })
+  }, [])
   return (
     <>
     <aside id='info'>
-      <section className='main-info'>
+      <section id='main-info' className='main-info'>
         <div>
           <p>Nome: Ken Kaneki</p>
           <p>
             Sexo: Masculino
           </p>
-        
-
         
           <p>Kagune: Rinkaku</p>
           <p>Variações: Diversas varias </p>
@@ -30,7 +38,6 @@ const Skills = () => {
           <p>Velocidade: Nível - SSS</p>
         </div>
       </section>
-
     </aside>
     </>
   )
