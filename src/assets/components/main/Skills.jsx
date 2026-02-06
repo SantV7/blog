@@ -5,12 +5,14 @@ const Skills = () => {
 
   useEffect(() => {
     ScrollReveal().reveal('#main-info', {
-      reset: true,
-       delay:0.45,
+       reset: true,
+       delay:0.15,
        distance: '57px',
-       duration: 1000,
+       duration: 860,
     })
   }, [])
+
+  
   return (
     <>
     <aside id='info'>
