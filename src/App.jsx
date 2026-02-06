@@ -12,16 +12,16 @@ function App() {
        opacity: 0,
        y: -230
       }, {
-        opacity: 1,
         y:0,
         stagger: {
           each:0.1,
           from: 'end'
         },
         x: 0,
+        delay: 0.35,
         ease: 'power2.inOut',
-        duration: 2,
-        delay:0.45,
+        duration: 1.4,
+        opacity: 1
     })
   }, [])
 
