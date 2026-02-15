@@ -10,17 +10,16 @@ function App() {
   useEffect(() => {
      gsap.fromTo('.animation-card', {
        opacity: 0,
-       y: -230
+       y: -170
       }, {
         y:0,
         stagger: {
-          each:0.1,
+          each:0.2,
           from: 'end'
         },
         x: 0,
-        delay: 0.35,
         ease: 'power2.inOut',
-        duration: 1.4,
+        duration: 0.75,
         opacity: 1
     })
   }, [])
